@@ -61,7 +61,7 @@ plugins:
 author:
   name   : "Alessandro Masullo"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "I'm an engineer currently working as a Research Associate at the University of Bristol on Computer Vision for Digital Health. I'm passionate about computers, bouldering, cycling and photography."
+  bio    : "I'm a Research Associate currently working at the University of Bristol on Computer Vision for Digital Health. I'm passionate about computers, bouldering, cycling and photography."
   location: "Bristol, UK"
   links:
     - label: "E-mail"
