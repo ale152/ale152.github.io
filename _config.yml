@@ -116,7 +116,6 @@ tag_archive:
   type: liquid
   path: /tags/
   
-#JEKYLL_GITHUB_TOKEN=75186738f98f315873bd241f5d61299005ac62dd
 github: [metadata]
   
 analytics:
