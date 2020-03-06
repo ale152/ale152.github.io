@@ -1,0 +1,14 @@
+main:
+  - title: "Research"
+    url: /research/
+  - title: "Curriculum"
+    url: /curriculum/
+  - title: "Publications"
+    url: /publications/
+  - title: "Code"
+    url: /code/
+  - title: "Blog"
+    url: /blog/
+  - title: "About"
+    url: /about/
+
