@@ -5,9 +5,15 @@ title: "List of publications"
 
 You can also check out my [Google Scholar profile](https://scholar.google.com/citations?user=J6GebsYAAAAJ)
 ###   Research Associate (SPHERE)
-*	[Person Re-ID by Fusion of Video Silhouettes and Wearable Signals for Home Monitoring Applications](#) <br/>
+*	[No Need for a Lab: Towards Multi-sensory Fusion for Ambient Assisted Living in Real-world Living Homes](https://www.scitepress.org/Link.aspx?doi=10.5220/0010202903280337) <br/>
+	_Masullo A., Perrett T., Damen D., Burghardt T. & Mirmehdi M._<br/>
+	February 2021, International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications (VISAPP)
+*	[Meta-Learning with Context-Agnostic Initialisations](https://arxiv.org/abs/2007.14658) <br/>
+	_Perrett T., Masullo A., Burghardt T., Mirmehdi M. & Damen D._<br/>
+	September 2020, Asian Conference on Computer Vision
+*	[Person Re-ID by Fusion of Video Silhouettes and Wearable Signals for Home Monitoring Applications](https://www.mdpi.com/1424-8220/20/9/2576) <br/>
 	_Masullo A., Burghardt T., Damen D., Perrett T. & Mirmehdi M._<br/>
-	January 2020, _Pending review_
+	January 2020, Sensors
 *	[Who Goes There? Exploiting Silhouettes and Wearable Signals for Subject Identification in Multi-Person Environments](http://openaccess.thecvf.com/content_ICCVW_2019/papers/CVPM/Masullo_Who_Goes_There_Exploiting_Silhouettes_and_Wearable_Signals_for_Subject_ICCVW_2019_paper.pdf) <br/>
 	_Masullo A., Burghardt T., Damen D., Perrett T. & Mirmehdi M._<br/>
 	October 2019, International Conference on Computer Vision Workshop	

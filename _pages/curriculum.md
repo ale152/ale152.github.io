@@ -14,7 +14,7 @@ Working experience:
   11/2014 – 05/2017 <br/>
   Department of Aerospace Engineering, _Univerity of Bristol_
 * Research Assistant <br/>
-  08/2014 - 09/2015 <br/>
+  08/2014 – 09/2015 <br/>
   Department of Aerospace Engineering, _Univerity of Bristol_
 
 
