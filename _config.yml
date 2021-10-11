@@ -16,9 +16,8 @@
 title: LaumosL
 email: a.masullo@bristol.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
-  My name is Alessandro Masullo and I'm a Research Associate currently working at the 
-  University of Bristol on Computer Vision for Digital Health. I'm passionate about 
-  computers, bouldering, cycling and photography.
+  My name is Alessandro Masullo and I'm a lecturer in Digital Health, researching in Computer Vision and Multi-Sensory Fusion. 
+  I'm passionate about climbing, technology, piano, cycling and photography.
 github_username: ale152
 minimal_mistakes_skin: default
 search: false
@@ -61,7 +60,8 @@ plugins:
 author:
   name   : "Alessandro Masullo"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "I'm a Research Associate currently working at the University of Bristol on Computer Vision for Digital Health. I'm passionate about computers, bouldering, cycling and photography."
+  bio    : "I'm a lecturer in Digital Health, researching in Computer Vision and Multi-Sensory Fusion. 
+  I'm passionate about climbing, technology, piano, cycling and photography."
   location: "Bristol, UK"
   links:
     - label: "E-mail"
