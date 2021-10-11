@@ -5,11 +5,11 @@ author_profile: true
 ---
 
 ### About me
-I'm currently working as a Research Associate at the [University of Bristol](https://www.bristol.ac.uk/), UK, for the [SPHERE project](https://www.irc-sphere.ac.uk/), where we apply Computer Vision and Machine Learning algorithms to sensor data for Digital Health.
+I'm currently working as a lecturer in Digital Health at the [University of Bristol](https://www.bristol.ac.uk/), UK. Previously, I worked as a Research Associate for the [SPHERE project](https://www.irc-sphere.ac.uk/), where we applied Computer Vision and Machine Learning algorithms to sensor data to monitor people's health in their own homes.
 
 My current research interests focus on Computer Vision, Human Motion Analysis, Sensor Fusion and Digital Health.
 
-Please use the top bar to check out my [curriculum](/curriculum/), [current research](/research/), [past publications](/publications/) and some [code](/code/) I wrote.
+Please use the top bar to check out my [curriculum](/curriculum/), [teaching](/teaching/), [current research](/research/), [past publications](/publications/) and some [code](/code/) I wrote.
 
 ### Selection of Research Projects
 [Matching video data with wearables](/research/#matching-video-data-with-wearables)

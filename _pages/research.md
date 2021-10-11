@@ -3,7 +3,7 @@ permalink: /research/
 title: "Research"
 ---
 
-The aim of my research is to use advanced Computer Vision and Machine Learning algorithms for Digital Health. I'm currently working for the [SPHERE Project](https://www.irc-sphere.ac.uk/), which aims at using common sensors like cameras and accelerometers deployed in people's homes to monitor the occupants' general health. My job is to analyse the data and come up with creative algorithms to understand the occupants' health while protecting their privacy.
+The aim of my research is to use advanced Computer Vision and Machine Learning algorithms for Digital Health. My work is connected to the [SPHERE Project](https://www.irc-sphere.ac.uk/), which aims at using common sensors like cameras and accelerometers deployed in people's homes to monitor the occupants' general health. My aim is to analyse the data and come up with creative algorithms to understand the occupants' health while protecting their privacy.
 
 Some of the most recent projects I worked on include:
 * [Sit-to-Stand analysis](#sit-to-stand)

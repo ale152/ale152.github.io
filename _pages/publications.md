@@ -4,7 +4,16 @@ title: "List of publications"
 ---
 
 You can also check out my [Google Scholar profile](https://scholar.google.com/citations?user=J6GebsYAAAAJ)
-###   Research Associate (SPHERE)
+###   Digital Health
+*	[Multimodal Classification of Parkinson's Disease in Home Environments with Resiliency to Missing Modalities](https://www.mdpi.com/1424-8220/21/12/4133) <br/>
+	_Heidarivincheh F., McConville R., Morgan C., McNaney R., Masullo A., Mirmehdi M., Whone A. L. & Craddock I._ <br/>
+	June 2021, Sensors
+*	[Temporal-Relational CrossTransformers for Few-Shot Action Recognition](https://openaccess.thecvf.com/content/CVPR2021/papers/Perrett_Temporal-Relational_CrossTransformers_for_Few-Shot_Action_Recognition_CVPR_2021_paper.pdf) <br/>
+	_Perrett T. J., Masullo A., Burghardt T., Mirmehdi M. & Damen D._ <br/>
+	June 2021, Computer Vision and Pattern Recognition 2021 (CVPR)
+*	[Data labelling in the wild: annotating free-living activities and Parkinson's disease symptoms](https://ieeexplore.ieee.org/document/9431017) <br/>
+	_Morgan C. A. M., Heidarivincheh F., Craddock I., Mcconville R., Perello Nieto M., Tonkin E. L., Masullo A., Vafeas A. T., Kim M., Mcnaney R., Tourte G. J. L. & Whone A. L._ <br/>
+	March 2021, Conference on Pervasive Computing and Communications Workshops
 *	[No Need for a Lab: Towards Multi-sensory Fusion for Ambient Assisted Living in Real-world Living Homes](https://www.scitepress.org/Link.aspx?doi=10.5220/0010202903280337) <br/>
 	_Masullo A., Perrett T., Damen D., Burghardt T. & Mirmehdi M._<br/>
 	February 2021, International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications (VISAPP)
@@ -28,7 +37,7 @@ You can also check out my [Google Scholar profile](https://scholar.google.com/ci
 	August 2018, European Conference on Computer Vision Workshops.
 
 <a name="phd-publications"></a>
-###  PhD
+###  PhD (Particle Image Velocimetry)
 *	[On dealing with multiple correlation peaks in PIV](https://link.springer.com/article/10.1007/s00348-018-2542-z) <br/>
 	_Masullo A. & Theunissen R._<br/>
 	May 2018, Experiments in Fluids
