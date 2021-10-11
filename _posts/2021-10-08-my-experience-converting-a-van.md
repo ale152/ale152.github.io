@@ -1,4 +1,11 @@
-# Intro
+---
+title: "My experience converting a van"
+date: 2020-10-08T00:00:00-00:00
+categories:
+  - blog
+tags:
+  - DIY
+---
 
 This article is not going to be a guide on how to convert your own van. It is mostly a collection of notes and information that I put together during the process of buying and converting my own van. I will explain how I decided on a vehicle, designed my own conversion kit, and built it using simple tools and no workshop available.
 
