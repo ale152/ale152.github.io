@@ -4,8 +4,10 @@ title: "Curriculum Vitae"
 ---
 
 Working experience:
+* Lecturer in [Digital Health](https://www.bristol.ac.uk/engineering/research/digital-health/)<br/>
+  06/2021 - Present<br/>
 * Research Associate for [SPHERE](https://www.irc-sphere.ac.uk/)<br/>
-  08/2017 – Present <br/>
+  08/2017 – 06/2021 <br/>
   Department of Computer Science, _Univerity of Bristol_
 * Teaching Assistant <br/>
   09/2014 – 08/2017 <br/>
