@@ -3,14 +3,34 @@ permalink: /research/
 title: "Research"
 ---
 
-The aim of my research is to use advanced Computer Vision and Machine Learning algorithms for Digital Health. My work is connected to the [SPHERE Project](https://www.irc-sphere.ac.uk/), which aims at using common sensors like cameras and accelerometers deployed in people's homes to monitor the occupants' general health. My aim is to analyse the data and come up with creative algorithms to understand the occupants' health while protecting their privacy.
+The aim of my research is to use advanced Computer Vision, Sensory Fusion and Machine Learning algorithms for Digital Health. I'm currently collaborating with the [SPHERE Project](https://www.irc-sphere.ac.uk/), which aims at using common sensors like cameras and accelerometers deployed in people's homes to monitor the occupants' general health. My aim is to analyse the data and come up with creative algorithms to understand the occupants' health while protecting their privacy.
 
 Some of the most recent projects I worked on include:
+* [Inertial Hallucinations](#inertial-hallucinations)
 * [Sit-to-Stand analysis](#sit-to-stand)
 * [Matching video data with wearables](#matching-video-wearables)
 * [Calorie estimation from video](#calorie-estimation)
 
-My previous work during my PhD can be found [here](#phd-piv).
+Previous work during my PhD can be found [here](#phd-piv).
+
+<a name="inertial-hallucinations"></a>
+## Inertial Hallucinations
+The aim of this research project was to find a better way to exploit multi-sensory data in the context of Ambient Assisted Living (AAL). Imagine an elderly person living in a house monitored with AAL sensors, like cameras and wearable accelerometers. Our research shows that using both cameras and accelerometers in a deep learning sensory fusion algorithm, we can detect Activities of Daily Living (ADL) with an accuracy of 97%. This, however, requires the subject to be wearing an accelerometer while being in front of the cameras' field of view, which is normally quite limited and only covers a few rooms (not bathroom or bedroom). As soon as the participant leaves the field of view of the cameras, the best accuracy in detecting ADL using accelerations only drops to 83% (from 97%!). What can we do to improve these scores while using sensory fusion?
+
+![inertial_hallucinations_house](/assets/images/inertial_hallucinations_house.png "Inertial Hallucinations House")
+
+We experimented with the frameworks of Learning Using Privileged Information (LUPI) and Modality Hallucination. In brief, we created a deep learning model that takes in input accelerometer data and produces in output (hallucinated) video features. Whenever the subject is in front of the camera, we use a standard multi-sensory fusion approach.
+
+![inertial_hallucinations_fusion](/assets/images/inertial_hallucinations_fusion.png "Multi-sensory fusion")
+
+As soon as they leave the camera view, we replace the missing modality with the hallucinated model. This novel approach allowed us to boost the classification accuracy of ADL, using inertial data only at inference time, from 83% up to 90%, setting a new state of the art on two different datasets.
+
+![inertial_hallucinations_features](/assets/images/inertial_hallucinations_features.png "Modality hallucination")
+
+To read more about this project, please check out this publication:
+> [Inertial Hallucinations - When Wearable Inertial Devices Start Seeing Things](#) <br/>
+> _Masullo A., Perrett T., Burghardt T., Damen D. & Mirmehdi M._<br/>
+> June 2022, _Pending Review_.	
 
 <a name="sit-to-stand"></a>
 ## Sit-to-Stand analysis
@@ -54,9 +74,9 @@ Results show that this algorithm works really well when the subjects in front of
 
 The solution to this problem is simply tracking every person's movement in front of the camera so that the matching is resolved during movement and is tracked over segments with no motion.
 To read more about this project, please check out this publication:
-> [Person Re-ID by Fusion of Video Silhouettes and Wearable Signals for Home Monitoring Applications](#) <br/>
-> Masullo A., Burghardt T., Damen D., Perrett T. & Mirmehdi M._<br/>
-> January 2020, _Pending review_
+> [Person Re-ID by Fusion of Video Silhouettes and Wearable Signals for Home Monitoring Applications](https://www.mdpi.com/1424-8220/20/9/2576) <br/>
+> Masullo A., Burghardt T., Damen D., Perrett T. & Mirmehdi M.<br/>
+> April 2020, MDPI Sensors
 
 <a name="calorie-estimation"></a>
 ## Calorie estimation from video
