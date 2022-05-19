@@ -4,7 +4,7 @@ layout: single
 author_profile: true
 ---
 
-### About me
+### About me 
 I'm currently working as a lecturer in Digital Health at the [University of Bristol](https://www.bristol.ac.uk/), UK. Previously, I worked as a Research Associate for the [SPHERE project](https://www.irc-sphere.ac.uk/), where we applied Computer Vision and Machine Learning algorithms to sensor data to monitor people's health in their own homes.
 
 My current research interests focus on Computer Vision, Human Motion Analysis, Sensor Fusion and Digital Health.
