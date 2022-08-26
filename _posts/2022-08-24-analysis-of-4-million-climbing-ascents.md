@@ -8,10 +8,12 @@ tags:
   - Data Analysis
 ---
 
+<sub>_This article was updated on the 26/08/2022. Changes can be seen [here](https://github.com/ale152/ale152.github.io/commits/master)._</sub>
+
 # TL;DR
 Here are the main findings from this article.
 
-> From the moment they start climbing, it takes the average climber:
+> For climbers who achieve these grades, it takes on average:
 > * 4-5 years to climb their first 7a
 > * 8-9 years to climb their first 8a
 > * 12-13 years to climb their first 9a
@@ -43,6 +45,7 @@ Logbook](https://www.kaggle.com/datasets/dcohen21/8anu-climbing-logbook). Since 
 * [How long will it take to climb the first 10a?](#parabolic_fit)
 * [Is it easier to climb a 7a sport route or a 7a (V6) boulder?](#bouldering-vs-sport-climbing)
 * [After how many years does the average climber plateau?](#improvement-over-years-and-plateau)
+* [How does the age you start climbing affect progression?](#progression-for-different-age)
 * [How does height affect progression?](#progression-for-different-height)
 * [Does BMI (Body Mass Index) affect climbing?](#analysis-of-bmi)
 * [Where are the strongest climbers in the world from?](#countries)
@@ -280,7 +283,7 @@ max redpoint for the average climber.
 
 |[![](/assets/images/climbing_article/image8.png)](/assets/images/climbing_article/image8.png)|
 |:--:|
-|**Figure 8** Average grade for men and women climbers vs years since started climbing|
+|**Figure 8** Average maximum grade for men and women climbers vs years since started climbing|
 
 Men start, on average, with a max redpoint of 6b, while women start just
 below 6a. The progression is very similar for men and women, with the
@@ -309,7 +312,7 @@ to calculate the numerical derivatives.
 
 |[![](/assets/images/climbing_article/image9.png)](/assets/images/climbing_article/image9.png)|
 |:--:|
-|**Figure 9** Average grade improvement (derivative) for men and women climbers vs years since started climbing|
+|**Figure 9** Average maximum grade improvement (derivative) for men and women climbers vs years since started climbing|
 
 The plot shows that for the first 2-3 years, climbers improve on average
 one whole grade per year (6a, 6b, etc.). After 4 years, the improvement
@@ -330,6 +333,23 @@ exact number of years before the plateau is very noisy.
 
 > "The average climber reaches a plateau between 7c+ and 8a in around 11-12 years."
 
+## Progression for different age
+We all know that whichever activity or sport you do, the earlier you start in your life, the faster (or further) you progress. But how does it apply to climbing, and what does the data say about it? Let's explore the field "date of birth" in the dataset to see at what age users from this dataset started climbing:
+
+|[![](/assets/images/climbing_article/image9b.png)](/assets/images/climbing_article/image9b.png)|
+|:--:|
+|**Figure 9b** Histograme of age at which users started climbing|
+
+From the histogram, we can see that the majority of users started climbing between age 18-22, with the average men starting slightly sooner than the average woman. How does the age users start climbing affect the maximum grade they can achieve? Let's look at a similar figure as the previous section, arranged this time by age group:
+
+|[![](/assets/images/climbing_article/image9c.png)](/assets/images/climbing_article/image9c.png)|
+|:--:|
+|**Figure 9c** Average maximum grade for different age groups vs years since they started climbing|
+
+The plot gets noisier as the age started climbing and the grade increase, but we can clearly see a pattern. Climbers who start the earliest (age 0-15) not only start with higher grades, but they also achieve a higher maximum grade in their career, which is above 8a+. As the age users start climbing goes up, the maximum grade achieved goes down, with a max of 8a for age group 15-20, 7c+/8a for age group 20-25 and 7c/7c+ for climber who started later than 25.
+
+What is interesting from this plot is that the progression curves for all the age groups seem to be parallel and simply shifted downwards as age increases. Kids will climb form 6c+ to 7c/+ (2.5 grades) in 4 years, while older climbers will improve from 6b to 7a+ (2.5 grades) in the same amount of years.
+
 ## Progression for different height
 
 An interesting parameter that is saved in the dataset is the users' height. Unfortunately, only half of the users set the
@@ -346,7 +366,7 @@ of height produced three categories of 141-175 cm (short), 175-180 cm
 
 |[![](/assets/images/climbing_article/image10.png)](/assets/images/climbing_article/image10.png)|
 |:--:|
-|**Figure 10** Average grade for men clustered by height vs years since started climbing|
+|**Figure 10** Average maximum grade for men clustered by height vs years since started climbing|
 
 From this plot, we can see that short climbers seem to be the ones that
 progress faster, with medium climbers in the middle and tall climbers
@@ -360,7 +380,7 @@ and 168-186 cm (tall).
 
 |[![](/assets/images/climbing_article/image11.png)](/assets/images/climbing_article/image11.png)|
 |:--:|
-|**Figure 11** Average grade for women clustered by height vs years since started climbing|
+|**Figure 11** Average maximum grade for women clustered by height vs years since started climbing|
 
 The plot is even noisier than for men, due to the reduced amount of data.
 It’s impossible to draw any conclusion but I’ll leave it here for
