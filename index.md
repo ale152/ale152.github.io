@@ -28,9 +28,9 @@ Please use the top bar to check out my [curriculum](/curriculum/), [teaching](/t
 [<img src="/assets/images/silhouettes.png" alt="Calorie estimation from video silhouettes" width="250"/>](/research/#calorie-estimation-from-video)
 
 ### Latest publications
-*	[Inertial Hallucinations - When Wearable Inertial Devices Start Seeing Things](#) <br/>
+*	[Inertial Hallucinations - When Wearable Inertial Devices Start Seeing Things](https://arxiv.org/abs/2207.06789) <br/>
 	_<strong>Masullo A.</strong>, Perrett T., Burghardt T., Damen D. & Mirmehdi M._<br/>
-	May 2022, _Pending Review_.
+	May 2022, [_Pending Review_](https://arxiv.org/abs/2207.06789).
 *	[Temporal-Relational CrossTransformers for few-shot action recognition](https://openaccess.thecvf.com/content/CVPR2021/papers/Perrett_Temporal-Relational_CrossTransformers_for_Few-Shot_Action_Recognition_CVPR_2021_paper.pdf) <br/>
 	_Perrett T., <strong>Masullo A.</strong>, Burghardt T., Mirmehdi M. & Damen D._<br/>
 	June 2021, Computer Vision and Pattern Recognition 2021 (CVPR).
