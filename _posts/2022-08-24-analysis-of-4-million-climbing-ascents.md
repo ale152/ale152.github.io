@@ -290,7 +290,7 @@ In the first plot, we average the users' maximum bouldering grades given their m
 
 From this plot, we can see that men and women who boulder up to a grade between 6b+ and 8a have an average maximum redpoint grade which is pretty much identical.
 
-> "If you can boulder a 7a, you can probably sport climb a 7b."
+> "Practicing both bouldering and sport climbing, if you can boulder a 7a, you can probably sport climb a 7b."
 
 ## Progression of maximum redpoint
 
