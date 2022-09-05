@@ -8,7 +8,7 @@ tags:
   - Data Analysis
 ---
 
-<sub>_This article was updated on the 26/08/2022. Changes can be seen [here](https://github.com/ale152/ale152.github.io/commits/master)._</sub>
+<sub>_This article was updated on the 05/09/2022. Changes can be seen [here](https://github.com/ale152/ale152.github.io/commits/master)._</sub>
 
 # TL;DR
 Here are the main findings from this article.
@@ -44,6 +44,7 @@ Logbook](https://www.kaggle.com/datasets/dcohen21/8anu-climbing-logbook). Since 
 * [How many years does it take to climb a certain grade?](#progression-in-time-of-grades)
 * [How long will it take to climb the first 10a?](#parabolic_fit)
 * [Is it easier to climb a 7a sport route or a 7a (V6) boulder?](#bouldering-vs-sport-climbing)
+* [What grade should you sport climb given your maximum bouldering grade?](#max_redp_vs_max_boulder)
 * [After how many years does the average climber plateau?](#improvement-over-years-and-plateau)
 * [How does the age you start climbing affect progression?](#progression-for-different-age)
 * [How does height affect progression?](#progression-for-different-height)
@@ -273,6 +274,23 @@ between 6b and 8b, is below the sport line. What does this mean? Let's investiga
 The figure shows a very complex picture and it's very difficult to tell, graphically, if it's easier to climb a 7a route or a 7a boulder. This is why statistical tests exist, they help us to quantify results using data. Without going too much into detail, I ran a [t-test](https://www.statstest.com/independent-samples-t-test/) on the number of years required to climb a 7a sport and the number of years required to climb a 7a boulder. The result (`t=1.172, p=0.241`) shows that there is no statistically significant difference between the two distributions.
 
 > "It takes the same time for a boulderer to climb their first 7a as a sport climber to climb their first 7a route."
+
+<a name="max_redp_vs_max_boulder"></a>
+Another question that we can answer using data is how grades compare between bouldering and sport climbing. In sight of the next Paris 2024 Olympics, where sport climbing and bouldering will be combined for the same medal, it's interesting to look at all the users in the dataset who practice both sport climbing and bouldering. Of the 30,844 total users who practice sport climbing and the 19,253 who practice bouldering, only 14,105 practice both disciplines. If we focus on this group of users, we can calculate their maximum grade for sport climbing, maximum grade for bouldering and plot them against each other.
+
+|[![](/assets/images/climbing_article/image7c.png)](/assets/images/climbing_article/image7c.png)|
+|:--:|
+|**Figure 7c** Average maximum bouldering grade vs maximum sport climbing grade|
+
+In the first plot, we average the users' maximum bouldering grades given their maximum redpoint, both for men and for women. From the plot, we can see that men who sport climb similar grades to women tend to climb slightly higher boulder grades than women, on average. For example, men who sport climb up to 7a tend to boulder up to 6c+/7a, whereas women who sport climb up to 7a have a maximum bouldering grade of 6c. However, if we invert the axis and plot the average maximum sport grade against the bouldering grade, things are different:
+
+|[![](/assets/images/climbing_article/image7d.png)](/assets/images/climbing_article/image7d.png)|
+|:--:|
+|**Figure 7d** Average maximum sport climbing grade vs maximum bouldering grade|
+
+From this plot, we can see that men and women who boulder up to a grade between 6b+ and 8a have an average maximum redpoint grade which is pretty much identical.
+
+> "If you can boulder a 7a, you can probably sport climb a 7b."
 
 ## Progression of maximum redpoint
 
