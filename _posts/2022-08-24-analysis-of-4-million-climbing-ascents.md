@@ -8,7 +8,7 @@ tags:
   - Data Analysis
 ---
 
-<sub>_This article was updated on the 05/09/2022. Changes can be seen [here](https://github.com/ale152/ale152.github.io/commits/master)._</sub>
+<sub>_This article was updated on the 06/09/2022. Changes can be seen [here](https://github.com/ale152/ale152.github.io/commits/master)._</sub>
 
 # TL;DR
 Here are the main findings from this article.
@@ -90,7 +90,7 @@ straight on an 8a?
 # Max flash vs Max redpoint
 
 In this section I’m going to answer the questions: “_what grade can you expect to climb given your maximum flash?_” and “_what grade
-can you expect to flash, given your maximum redpoint?_”
+can you expect to flash, given your maximum redpoint?_”. For those unfamiliar with climbing terms, to "flash" a route means climbing it on the first attempt, without falls or rests on the rope, using no other holds than the rock itself. To "redpoint" means climbing a route in the same conditions but after having practiced the moves (after any number of attempts).
 
 To answer these questions, I grouped ascents by user and selected their
 maximum redpoint and flash/on-sight (OS) grades. I then averaged the
