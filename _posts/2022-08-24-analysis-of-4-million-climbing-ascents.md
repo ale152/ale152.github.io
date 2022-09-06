@@ -26,7 +26,7 @@ Here are the main findings from this article.
 > Using a [mathematical model](#parabolic_fit), we can predict it'll take 19-20 uninterrupted years, since when one started climbing, to send a 10a and 22 years to send a 10b.
 > Adam Ondra climbed [Silence](https://en.wikipedia.org/wiki/Silence_\(climb\)) (9c) 18 years after he started climbing.
 
-> The average boulderer will climb their first 7a (Font) around the [same time](#boulder_vs_sport) as the average sport climber with their first 7a (sport) route.
+> The average boulderer will climb their first 7A (Font) around the [same time](#boulder_vs_sport) as the average sport climber with their first 7a (sport) route.
 
 > No, you haven't plateaued. Your [improvement](#improvement) is probably less than a "+" grade and you just can't notice it.
 
@@ -43,7 +43,7 @@ Logbook](https://www.kaggle.com/datasets/dcohen21/8anu-climbing-logbook). Since 
 * [What grade can you expect to redpoint (or flash) given your maximum flash (or maximum redpoint)?](#max-flash-vs-max-redpoint)
 * [How many years does it take to climb a certain grade?](#progression-in-time-of-grades)
 * [How long will it take to climb the first 10a?](#parabolic_fit)
-* [Is it easier to climb a 7a sport route or a 7a (V6) boulder?](#bouldering-vs-sport-climbing)
+* [Is it easier to climb a 7a sport route or a 7A (V6) boulder?](#bouldering-vs-sport-climbing)
 * [What grade should you sport climb given your maximum bouldering grade?](#max_redp_vs_max_boulder)
 * [After how many years does the average climber plateau?](#improvement-over-years-and-plateau)
 * [How does the age you start climbing affect progression?](#progression-for-different-age)
@@ -64,17 +64,17 @@ users (median) logging 35 ascents and 90% of them logging between 3 and
 know much about him, but he’s climbed two 8bs and an 8b+.
 
 <a name="histogram-of-ascents"></a>
-> "The most logged grade is 7a, both for sport and bouldering"
+> "The most logged grade is 7a for sport and 7A for bouldering"
 
 If we look at the histogram of grades for all the ascents, the most
-logged grade is 7a, both for sport and bouldering. It’s funny to see how
+logged grade is 7a for sport and 7A for bouldering. It’s funny to see how
 “+” grades are climbed (or logged) less than “whole” grades, especially
-for bouldering. Grades 6a, 6b and 6c have around 100k boulder
-ascents, while 6a+, 6b+ and 6c+ have less than half. After 7a, every
+for bouldering. Grades 6A, 6B and 6C have around 100k boulder
+ascents, while 6A+, 6B+ and 6C+ have less than half. After 7a/7A, every
 little progress counts and all the grades have a more regular
 distribution.
 
-> "Grades 6a+, 6b+ and 6c+ have less than half the logs for 6a, 6b and 6c"
+> "Grades 6A+, 6B+ and 6C+ have less than half the logs for 6A, 6B and 6C"
 
 |[![](/assets/images/climbing_article/image1.png)](/assets/images/climbing_article/image1.png)|
 |:--:|
@@ -258,7 +258,7 @@ It's important to note that while this model can be used to extrapolate data ind
 <a name="boulder_vs_sport"></a>
 The results so far only considered sport climbing, but what about
 bouldering? Let’s try to answer this question: “_Is it easier to climb a
-7a sport route or a 7a (V6) boulder?_”. By using a similar approach to the 
+7a sport route or a 7A (V6) boulder?_”. By using a similar approach to the 
 last section, we can produce a plot distinguishing between sport climbing and bouldering:
 
 |[![](/assets/images/climbing_article/image7.png)](/assets/images/climbing_article/image7.png)|
@@ -266,15 +266,15 @@ last section, we can produce a plot distinguishing between sport climbing and bo
 |**Figure 7** Average number of years required to climb a specific grade for bouldering and sport climbing|
 
 The lines are very noisy but there's a hint that the bouldering one,
-between 6b and 8b, is below the sport line. What does this mean? Let's investigate further and look at the histogram of number of years required to climb 7a for both sport climbing and bouldering:
+between 6B and 8B, is below the sport line. What does this mean? Let's investigate further and look at the histogram of number of years required to climb 7a for both sport climbing and bouldering:
 
 |[![](/assets/images/climbing_article/image7b.png)](/assets/images/climbing_article/image7b.png)|
 |:--:|
 |**Figure 7b** Histogram of years required to climb a 7a|
 
-The figure shows a very complex picture and it's very difficult to tell, graphically, if it's easier to climb a 7a route or a 7a boulder. This is why statistical tests exist, they help us to quantify results using data. Without going too much into detail, I ran a [t-test](https://www.statstest.com/independent-samples-t-test/) on the number of years required to climb a 7a sport and the number of years required to climb a 7a boulder. The result (`t=1.172, p=0.241`) shows that there is no statistically significant difference between the two distributions.
+The figure shows a very complex picture and it's very difficult to tell, graphically, if it's easier to climb a 7a route or a 7A boulder. This is why statistical tests exist, they help us to quantify results using data. Without going too much into detail, I ran a [t-test](https://www.statstest.com/independent-samples-t-test/) on the number of years required to climb a 7a sport and the number of years required to climb a 7A boulder. The result (`t=1.172, p=0.241`) shows that there is no statistically significant difference between the two distributions.
 
-> "It takes the same time for a boulderer to climb their first 7a as a sport climber to climb their first 7a route."
+> "It takes the same time for a boulderer to climb their first 7A as a sport climber to climb their first 7a route."
 
 <a name="max_redp_vs_max_boulder"></a>
 Another question that we can answer using data is how grades compare between bouldering and sport climbing. In sight of the next Paris 2024 Olympics, where sport climbing and bouldering will be combined for the same medal, it's interesting to look at all the users in the dataset who practice both sport climbing and bouldering. Of the 30,844 total users who practice sport climbing and the 19,253 who practice bouldering, only 14,105 practice both disciplines. If we focus on this group of users, we can calculate their maximum grade for sport climbing, maximum grade for bouldering and plot them against each other.
@@ -283,15 +283,15 @@ Another question that we can answer using data is how grades compare between bou
 |:--:|
 |**Figure 7c** Average maximum bouldering grade vs maximum sport climbing grade|
 
-In the first plot, we average the users' maximum bouldering grades given their maximum redpoint, both for men and for women. From the plot, we can see that men who sport climb similar grades to women tend to climb slightly higher boulder grades than women, on average. For example, men who sport climb up to 7a tend to boulder up to 6c+/7a, whereas women who sport climb up to 7a have a maximum bouldering grade of 6c. However, if we invert the axis and plot the average maximum sport grade against the bouldering grade, things are different:
+In the first plot, we average the users' maximum bouldering grades given their maximum redpoint, both for men and for women. From the plot, we can see that men who sport climb similar grades to women tend to climb slightly higher boulder grades than women, on average. For example, men who sport climb up to 7a tend to boulder up to 6C+/7A, whereas women who sport climb up to 7a have a maximum bouldering grade of 6C. However, if we invert the axis and plot the average maximum sport grade against the bouldering grade, things are different:
 
 |[![](/assets/images/climbing_article/image7d.png)](/assets/images/climbing_article/image7d.png)|
 |:--:|
 |**Figure 7d** Average maximum sport climbing grade vs maximum bouldering grade|
 
-From this plot, we can see that men and women who boulder up to a grade between 6b+ and 8a have an average maximum redpoint grade which is pretty much identical.
+From this plot, we can see that men and women who boulder up to a grade between 6B+ and 8A have an average maximum redpoint grade which is pretty much identical.
 
-> "Practicing both bouldering and sport climbing, if you can boulder a 7a, you can probably sport climb a 7b."
+> "Practicing both bouldering and sport climbing, if you can boulder a 7A, you can probably sport climb a 7b."
 
 ## Progression of maximum redpoint
 
