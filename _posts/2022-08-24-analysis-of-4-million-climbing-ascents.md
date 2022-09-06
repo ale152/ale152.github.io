@@ -48,6 +48,7 @@ Logbook](https://www.kaggle.com/datasets/dcohen21/8anu-climbing-logbook). Since 
 * [After how many years does the average climber plateau?](#improvement-over-years-and-plateau)
 * [How does the age you start climbing affect progression?](#progression-for-different-age)
 * [How does height affect progression?](#progression-for-different-height)
+* [How many routes are you expected to climb at your maximum grade before climbing the next grade?](#number-of-ticks-before-the-next-grade)
 * [Does BMI (Body Mass Index) affect climbing?](#analysis-of-bmi)
 * [Where are the strongest climbers in the world from?](#countries)
 * [What do climbers do for a living?](#occupation)
@@ -419,6 +420,16 @@ The results are still very noisy but we can see that there's a correlation betwe
 Please note that these results refer to the maximum redpoint for each individual user, whichever the route they climbed. However, the same route could feel like a 7a for a tall climber and 7b for a short one, and the other way around. Also, keep in mind that [correlation doesn't mean causation](https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation) and trying to understand how height affects climbing is a topic for a different article.
 
 
+## Number of ticks before the next grade
+We spoke a lot about progression through grades in terms of time, but a different way to measure progression is through the number of individual ascents for a certain grade. The question I want to answer is: "How many routes are you expected to climb at your maximum grade before climbing the next grade?". To answer this question, we'll use a similar approach to "Max grade per user" mentioned before in this article. However, instead of selecting the maximum grade for each user, we select the *second highest* grade for each user and we count the number of occurrecies of that grade per user (thank you [StackExchange](https://dba.stackexchange.com/questions/303297/how-to-get-the-second-highest-value-per-group/303320)). If we average the number of ascents or "ticks" for each grade, we obtain the following plot:
+
+|[![](/assets/images/climbing_article/image11c.png)](/assets/images/climbing_article/image11c.png)|
+|:--:|
+|**Figure 11c** Average number of ascents for a certain grade before climbing the next grade|
+
+The figure shows a similar behaviour for sport climbing and bouldering. Say that your maximum sport grade is 7a and you want to know how many 7a to climb before being able to climb a 7a+. According to the plot, on average, the answer is 4. Keep in mind that this data was calculated based on climbers that *do climb* the next available grade. This means that climbers that *did climb* up to 7a+ climbed, on average, around 4 7a routes before climbing 7a+.
+
+> If you can climb between 2 and 6 routes of a certain grade you can expect to be able to climb the next grade.
 
 
 # Secondary analyses
