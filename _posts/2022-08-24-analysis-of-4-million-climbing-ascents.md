@@ -10,6 +10,8 @@ tags:
 
 <sub>_This article was updated on the 06/09/2022. Changes can be seen [here](https://github.com/ale152/ale152.github.io/commits/master)._</sub>
 
+A series on videos inspired by this article is also available on [YouTube](https://www.youtube.com/playlist?list=PLdAesaXHmpfYhV9yQNZPChM5GDQOw4JKT).
+
 # TL;DR
 Here are the main findings from this article.
 
