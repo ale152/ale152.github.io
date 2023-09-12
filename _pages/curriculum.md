@@ -3,6 +3,8 @@ permalink: /curriculum/
 title: "Curriculum Vitae"
 ---
 
+You can find my full CV [here](/assets/documents/curriculum.pdf).
+
 Working experience:
 * Lecturer in [Digital Health](https://www.bristol.ac.uk/engineering/research/digital-health/)<br/>
   06/2021 - Present<br/>
@@ -21,7 +23,7 @@ Working experience:
 
 
 Education:
-* PhD in [Particle Image Velocimetry](/research/#phd-piv) at _University of Bristol_ <br/>
+* [PhD](/research/#phd-piv) in Aerospace Engineering/Image Analysis at _University of Bristol_ <br/>
   09/2014 – 08/2017
 * Master’s Degree in Aerospace Engineering at _Università degli Studi di Napoli Federico II_ <br/>
   02/2012 – 06/2014
@@ -53,6 +55,3 @@ Languages:
 * English (full proficiency)
 * Italian (native)
 * Spanish (basic)
-
-
-You can find my full CV [here](/assets/documents/curriculum.pdf).
