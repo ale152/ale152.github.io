@@ -6,7 +6,7 @@ title: "List of publications"
 You can also check out my [Google Scholar profile](https://scholar.google.com/citations?user=J6GebsYAAAAJ)
 ###   Latest Research
 
-*	[Automated Real-World Video Analysis of Sit-to-Stand Transitions Predicts Parkinson’s Disease Severity](https://karger.com/dib/article/7/1/92/855512/Automated-Real-World-Video-Analysis-of-Sit-to) <br/>
+*	[Automated Real-World Video Analysis of Sit-to-Stand Transitions Predicts Parkinson's Disease Severity](https://karger.com/dib/article/7/1/92/855512/Automated-Real-World-Video-Analysis-of-Sit-to) <br/>
 	_Morgan C., <strong>Masullo A.</strong>, Mirmehdi M., Isotalus H., Jovan F., McConville R., Tonkin E., Whone A. & Craddock I._<br/>
 	August 2023, Digit Biomark.
 *	[Toward Enhanced Clinical Decision Support for Patients Undergoing a Hip or Knee Replacement](https://pubmed.ncbi.nlm.nih.gov/37093626/) <br/>
