@@ -5,11 +5,12 @@ author_profile: true
 ---
 
 ### About me 
-I'm currently working as a lecturer at the [University of Bristol](https://www.bristol.ac.uk/), UK. Previously, I worked as a Research Associate for the [SPHERE project](https://www.irc-sphere.ac.uk/), where we applied Computer Vision and Machine Learning algorithms to sensor data to monitor people's health in their own homes.
+I'm currently working as a lecturer at the [University of Bristol](https://www.bristol.ac.uk/), UK. Previously, I worked as a Research Associate for the [SPHERE project](https://www.irc-sphere.ac.uk/), where I developed Computer Vision and Machine Learning algorithms to fuse sensor data and monitor people's health in their own homes.
 
-My current research interests focus on Computer Vision, Human Motion Analysis, Sensor Fusion and Digital Health.
+My current research interests focus on Computer Vision, Human Motion Analysis, Sensor Fusion and Digital Health. Recently, I've been working on using Artificial Intelligence and Sensory Fusion to objectively measure symptoms of Parkinson's disease to help the development of new drugs. In the past, I worked in Aerospace Engineering and developed algorithms in Computational Fluid Dynamics.
 
 Please use the top bar to check out my [curriculum](/curriculum/), [teaching](/teaching/), [current research](/research/), [past publications](/publications/) and some [code](/code/) I wrote.
+
 
 ### Latest Research Projects
 [Inertial Hallucinations](/research/#inertial-hallucinations)<br/>
