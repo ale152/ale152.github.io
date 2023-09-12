@@ -16,7 +16,7 @@ All of my research involves coding, which is mostly in Python, Matlab and someti
 ###  PhD
 * [Automated mask generation for PIV](https://github.com/ale152/automagic_mask) <br/>
  This algorithm is designed to help the analysis of Particle Image Velocimetry (PIV) images by automatically creating a mask based on the statistics of a set of images. Background regions are characterised by a Gaussian distribution of the pixels while particle images present a strongly skewed distribution. For more information check out _[Automated mask generation for PIV image analysis based on pixel intensity statistics](https://link.springer.com/article/10.1007%2Fs00348-017-2357-3)_
-* [POD-based background removal for Particle Image Velocimetry](https://seis.bristol.ac.uk/~aexrt/PIVPODPreprocessing/index.html) <br/>
+* [POD-based background removal for Particle Image Velocimetry](https://uk.mathworks.com/matlabcentral/fileexchange/59655-pod-based-background-removal-for-particle-image-velocimetry) <br/>
  This software includes the Matlab implementation of the algorithm described in the paper _[POD-based background removal for particle image velocimetry](https://www.sciencedirect.com/science/article/pii/S0894177716302266)_
  * [Matlab File Exchange](https://uk.mathworks.com/matlabcentral/profile/authors/3265833-alessandro-masullo?utf8=%E2%9C%93&detail2=&detail=fileexchange) <br/>
  During my PhD, I coded mostly in Matlab and I created several small scripts and functions that I collected on my _Matlab File Exchange_.
