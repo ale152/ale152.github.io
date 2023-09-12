@@ -4,10 +4,20 @@ title: "List of publications"
 ---
 
 You can also check out my [Google Scholar profile](https://scholar.google.com/citations?user=J6GebsYAAAAJ)
-###   Current Research
+###   Latest Research
+
+*	[Automated Real-World Video Analysis of Sit-to-Stand Transitions Predicts Parkinson’s Disease Severity](https://karger.com/dib/article/7/1/92/855512/Automated-Real-World-Video-Analysis-of-Sit-to) <br/>
+	_Morgan C., <strong>Masullo A.</strong>, Mirmehdi M., Isotalus H., Jovan F., McConville R., Tonkin E., Whone A. & Craddock I._<br/>
+	August 2023, Digit Biomark.
+*	[Toward Enhanced Clinical Decision Support for Patients Undergoing a Hip or Knee Replacement](https://pubmed.ncbi.nlm.nih.gov/37093626/) <br/>
+	_Grant S., Tonkin E., Craddock I., Blom A., Holmes M., Judge A., <strong>Masullo A.</strong>, Perello Nieto M., Song H., Whitehouse M., Flach P. & Gooberman-Hill R._<br/>
+	April 2023, JMIR.
+*	[Personalized Energy Expenditure Estimation: Visual Sensing Approach With Deep Learning](https://formative.jmir.org/2022/9/e33606) <br/>
+	_Perrett T., <strong>Masullo A.</strong>, Damen D., Burghardt T., Craddock I. & Mirmehdi M._<br/>
+	September 2022, JMIR.
 *	[Inertial Hallucinations - When Wearable Inertial Devices Start Seeing Things](https://arxiv.org/abs/2207.06789) <br/>
 	_<strong>Masullo A.</strong>, Perrett T., Burghardt T., Damen D. & Mirmehdi M._<br/>
-	May 2022, [_Pending Review_](https://arxiv.org/abs/2207.06789).
+	May 2022, arXiv.
 *	[Temporal-Relational CrossTransformers for few-shot action recognition](https://openaccess.thecvf.com/content/CVPR2021/papers/Perrett_Temporal-Relational_CrossTransformers_for_Few-Shot_Action_Recognition_CVPR_2021_paper.pdf) <br/>
 	_Perrett T., <strong>Masullo A.</strong>, Burghardt T., Mirmehdi M. & Damen D._<br/>
 	June 2021, Computer Vision and Pattern Recognition 2021 (CVPR).
