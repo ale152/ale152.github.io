@@ -5,7 +5,7 @@ author_profile: true
 ---
 
 ### About me 
-I'm currently working as a lecturer in Digital Health at the [University of Bristol](https://www.bristol.ac.uk/), UK. Previously, I worked as a Research Associate for the [SPHERE project](https://www.irc-sphere.ac.uk/), where we applied Computer Vision and Machine Learning algorithms to sensor data to monitor people's health in their own homes.
+I'm currently working as a lecturer at the [University of Bristol](https://www.bristol.ac.uk/), UK. Previously, I worked as a Research Associate for the [SPHERE project](https://www.irc-sphere.ac.uk/), where we applied Computer Vision and Machine Learning algorithms to sensor data to monitor people's health in their own homes.
 
 My current research interests focus on Computer Vision, Human Motion Analysis, Sensor Fusion and Digital Health.
 
@@ -28,9 +28,12 @@ Please use the top bar to check out my [curriculum](/curriculum/), [teaching](/t
 [<img src="/assets/images/silhouettes.png" alt="Calorie estimation from video silhouettes" width="250"/>](/research/#calorie-estimation-from-video)
 
 ### Latest publications
+*	[Automated Real-World Video Analysis of Sit-to-Stand Transitions Predicts Parkinson’s Disease Severity](https://karger.com/dib/article/7/1/92/855512/Automated-Real-World-Video-Analysis-of-Sit-to) <br/>
+	_Morgan C., <strong>Masullo A.</strong>, Mirmehdi M., Isotalus H., Jovan F., McConville R., Tonkin E., Whone A. & Craddock I._<br/>
+	August 2023, Digit Biomark.
 *	[Inertial Hallucinations - When Wearable Inertial Devices Start Seeing Things](https://arxiv.org/abs/2207.06789) <br/>
 	_<strong>Masullo A.</strong>, Perrett T., Burghardt T., Damen D. & Mirmehdi M._<br/>
-	May 2022, [_Pending Review_](https://arxiv.org/abs/2207.06789).
+	May 2022, arXiv.
 *	[Temporal-Relational CrossTransformers for few-shot action recognition](https://openaccess.thecvf.com/content/CVPR2021/papers/Perrett_Temporal-Relational_CrossTransformers_for_Few-Shot_Action_Recognition_CVPR_2021_paper.pdf) <br/>
 	_Perrett T., <strong>Masullo A.</strong>, Burghardt T., Mirmehdi M. & Damen D._<br/>
 	June 2021, Computer Vision and Pattern Recognition 2021 (CVPR).
