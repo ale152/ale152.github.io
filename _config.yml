@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: LaumosL
-email: a.masullo@bristol.ac.uk
+email: alessandromasullo@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I'm a lecturer at the University of Bristol. My research focuses on Computer Vision, Human Motion Analysis, Multi-Sensory Fusion and Digital Health.
+  I'm a Sr. Data Scientist at [Veritone](https://www.veritone.com/) specialised in Computer Vision.
   I'm passionate about climbing, technology and music production.
 github_username: ale152
 minimal_mistakes_skin: default
@@ -60,19 +60,19 @@ plugins:
 author:
   name   : "Alessandro Masullo"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "I'm a lecturer at the University of Bristol. My research focuses on Computer Vision, Human Motion Analysis, Multi-Sensory Fusion and Digital Health.
+  bio    : "I'm a Sr. Data Scientist at [Veritone](https://www.veritone.com/) specialised in Computer Vision.
   I'm passionate about climbing, technology and music production."
   location: "Bristol, UK"
   links:
     - label: "E-mail"
       icon: "fas fa-at"
-      url: "mailto:a.masullo@bristol.ac.uk"
+      url: "mailto:alessandromasullo@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ale152"
-    - label: "University of Bristol"
-      icon: "fas fa-university"
-      url: "https://www.bristol.ac.uk/people/person/Alessandro-Masullo-a83495ec-647d-41eb-ae2c-3591146bdd8e/"
+#    - label: "University of Bristol"
+#      icon: "fas fa-university"
+#      url: "https://www.bristol.ac.uk/people/person/Alessandro-Masullo-a83495ec-647d-41eb-ae2c-3591146bdd8e/"
     - label: "Google Scholar"
       icon: "fab fa-google"
       url: "https://scholar.google.com/citations?user=J6GebsYAAAAJ"
@@ -87,7 +87,7 @@ footer:
   links:
     - label: "E-mail"
       icon: "fas fa-at"
-      url: "mailto:a.masullo@bristol.ac.uk"
+      url: "mailto:alessandromasullo@gmail.com"
 
 defaults:
   # _posts
