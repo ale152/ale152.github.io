@@ -13,4 +13,4 @@ I spend most of my free time climbing (indoor bouldering and outdoor sport). If 
 
 On rest days, I also spend some time playing the piano, cycling, taking pictures ([Flickr](https://www.flickr.com/photos/laumosl/)) and learning how to use synthesizers ([Spotify](https://open.spotify.com/artist/1TKj1jJpym64dPbesh8Jot?si=jHnLjneKSLeZqq3v7u6lxg), [SoundCloud](https://soundcloud.com/laumosl)). In addition to this website, I also have a [blog](http://www.wirgilio.it/blog/), where I used to talk about science, engineering and coding. It's written in Italian and I haven't updated it for several years now... If I write anything now, it'll probably be [here](/blog/) and in English.
 
-Please use the top bar to check out my [curriculum](/curriculum/), [current research](/research/), [teaching](/teaching/), [past publications](/publications/) and some [code](/code/) I wrote.
+Please use the top bar to check out my [curriculum](/curriculum/), [current research](/research/), [past publications](/publications/) and some [code](/code/) I wrote.
