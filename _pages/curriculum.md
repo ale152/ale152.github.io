@@ -7,9 +7,9 @@ You can find my full CV [here](/assets/documents/curriculum.pdf).
 
 Working experience:
 * Sr. Data Scientist at [Veritone](https://www.veritone.com/)<br/>
-  02/2024 - Present
+  02/2024 – Present
 * Lecturer in [Digital Health](https://www.bristol.ac.uk/engineering/research/digital-health/)<br/>
-  06/2021 - 01/2024<br/>
+  06/2021 – 01/2024<br/>
   _Univerity of Bristol_
 * Research Associate for [SPHERE](https://www.irc-sphere.ac.uk/)<br/>
   08/2017 – 06/2021 <br/>
