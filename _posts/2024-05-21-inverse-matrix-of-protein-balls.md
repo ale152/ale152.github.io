@@ -30,7 +30,7 @@ And these are the nutritional values that of the protein balls that I want to ma
 
 How do I find the right amount of protein powder, peanut butter and dry prunes, so that mixed together they have those nutritional values? Let’s get more sciency and see how to do this.
 
-Let the nutritional values be Energy (E), Fat (F), Carbs (C), fibeR (R), Protein (P), Salt (S) and the ingredients be Protein Powder (PP), Peanut Butter (PB) and Dry Prunes (DP). The nutritional values per 100 grams for each ingredient are represented by the symbols $E_{PP}$ (Energy of Protein Powder per 100 grams), $F_{PB}$ (Fat of Peanut Butter per 100 grams), etc.
+Let the nutritional values be Energy (E), Fat (F), Carbs (C), fibeR (R), Protein (P), Salt (S) and the ingredients be Protein Powder (PP), Peanut Butter (PB) and Dry Prunes (DP). The nutritional values per 100 grams for each ingredient are represented by the symbols $$E_{PP}$$ (Energy of Protein Powder per 100 grams), $$F_{PB}$$ (Fat of Peanut Butter per 100 grams), etc.
 
 $$
 \text{Protein powder}=PP\\
@@ -44,9 +44,9 @@ $$
 C = C_{PP} \cdot \frac{w_{PP}}{100} + C_{PB} \cdot \frac{w_{PB}}{100} + C_{DP} \cdot \frac{w_{DP}}{100}
 $$
 
-where $w_{PP}$, $w_{PB}$ and $w_{DP}$ are the weights of respectively Protein Powder, Peanut Butter and Dry Prunes, while the $C_{i}$ are the carbs per 100 grams of each ingredient.
+where $$w_{PP}$$, $$w_{PB}$$ and $$w_{DP}$$ are the weights of respectively Protein Powder, Peanut Butter and Dry Prunes, while the $$C_{i}$$ are the carbs per 100 grams of each ingredient.
 
-Since the recipe that we want to find is unknown, we can call the weights of each ingredient $x$ and we may as well divide them by 100 to simplify the equation:
+Since the recipe that we want to find is unknown, we can call the weights of each ingredient $$x$$ and we may as well divide them by 100 to simplify the equation:
 
 $$
 x_i = \frac{w_i}{100},\text{ for }i\in\left\{\text{PB},\text{PP},\text{DP}\right\}
@@ -65,13 +65,13 @@ S = S_{PP} \cdot x_{PP} + S_{PB} \cdot x_{PB} + S_{DP} \cdot x_{DP} \\
 \end{cases}
 $$
 
-If we call the vector of nutritional values $V=(E,F,C,R,P,S)$ and the unknown recipe vector $\hat{x}=(x_{PP},x_{PB},x_{DP})$, we can reshape these equations in matrix form:
+If we call the vector of nutritional values $$V=(E,F,C,R,P,S)$$ and the unknown recipe vector $$\hat{x}=(x_{PP},x_{PB},x_{DP})$$, we can reshape these equations in matrix form:
 
 $$
 V = M\cdot\hat{x}
 $$
 
-Where $M$ is the equation of nutritional values of each ingredient: 
+Where $$M$$ is the equation of nutritional values of each ingredient: 
 
 $$
 M = \begin{bmatrix}
@@ -94,13 +94,13 @@ $$
 V = M\cdot\hat{x}
 $$
 
-If we multiply both sides of the equation for the transpose of $M$, namely $M^T$:
+If we multiply both sides of the equation for the transpose of $$M$$, namely $$M^T$$:
 
 $$
 M^T V = M^T M\cdot\hat{x}
 $$
 
-we can now multiply both sides by the inverse matrix $(M^T M)^{-1}$:
+we can now multiply both sides by the inverse matrix $$(M^T M)^{-1}$$:
 
 $$
 (M^T M)^{-1}M^T V = (M^T M)^{-1}(M^T M)\cdot\hat{x}
@@ -112,7 +112,7 @@ $$
 \hat{x} = (M^T M)^{-1}M^T V
 $$
 
-Provided that the matrix $(M^T M)^{-1}M^T$ exists (which in special cases it [might not](https://en.wikipedia.org/wiki/Rank_(linear_algebra))), we got ourself a recipe for protein balls.
+Provided that the matrix $$(M^T M)^{-1}M^T$$ exists (which in special cases it [might not](https://en.wikipedia.org/wiki/Rank_(linear_algebra))), we got ourself a recipe for protein balls.
 
 Let’s now put some numbers into the equation, see what the actual recipe is like and how far the solution is from the target recipe.
 
@@ -130,7 +130,7 @@ and the nutritional values of my favourite protein balls:
 | --- | --- | --- | --- | --- | --- |
 | 366 | 10 | 45.8 | 5.8 | 20.2 | 0.11 |
 
-We can put the values in the matrix $M$ and the vector $V$:
+We can put the values in the matrix $$M$$ and the vector $$V$$:
 
 $$
 M = \begin{bmatrix}
@@ -151,7 +151,7 @@ V = \begin{bmatrix}
 \end{bmatrix}
 $$
 
-Given these values for M we need to calculate $(M^T M)^{-1}M^T$, which we could do by hand, or simply write a python script that does it for us:
+Given these values for M we need to calculate $$(M^T M)^{-1}M^T$$, which we could do by hand, or simply write a python script that does it for us:
 
 ```python
 import numpy as np
@@ -181,7 +181,7 @@ $$
 0.80763855\end{bmatrix}
 $$
 
-If we remember the definition of $\hat{x}$, we can obtain the weights of each ingredient by multiplying $\hat{x}$ by 100:
+If we remember the definition of $$\hat{x}$$, we can obtain the weights of each ingredient by multiplying $$\hat{x}$$ by 100:
 
 $$
 w = \begin{bmatrix}
