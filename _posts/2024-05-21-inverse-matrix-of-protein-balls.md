@@ -30,7 +30,7 @@ And these are the nutritional values that of the protein balls that I want to ma
 
 How do I find the right amount of protein powder, peanut butter and dry prunes, so that mixed together they have those nutritional values? Let’s get more sciency and see how to do this.
 
-Let the nutritional values be Energy (E), Fat (F), Carbs (C), fibeR (R), Protein (P), Salt (S) and the ingredients be Protein Powder (PP), Peanut Butter (PB) and Dry Prunes (DP). The nutritional values per 100 grams for each ingredient are represented by the symbols $$E_{PP}$$ (Energy of Protein Powder per 100 grams), $$F_{PB}$$ (Fat of Peanut Butter per 100 grams), etc.
+Let the nutritional values be Energy (E), Fat (F), Carbs (C), fibRe (R), Protein (P), Salt (S) and the ingredients be Protein Powder (PP), Peanut Butter (PB) and Dry Prunes (DP). The nutritional values per 100 grams for each ingredient are represented by the symbols $$E_{PP}$$ (Energy of Protein Powder per 100 grams), $$F_{PB}$$ (Fat of Peanut Butter per 100 grams), etc.
 
 $$
 \text{Protein powder}=PP\\
