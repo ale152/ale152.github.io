@@ -219,6 +219,8 @@ At last, here is the final recipe. The list of ingredients from the previous cal
 
 Shape with your hands into balls of 10-15 grams each and keep overnight in the fridge (or a few hours in the freezer). You can eat them straight away but the consistency will be much better after chilling. You can store in the fridge for *some time,* I think I stored them up to 10 days and they were still perfect, but don't quote me on that.
 
+**Note:** For the protein powder I used pure whey powder (flavoured), which also has sweetener, thickener and emulsifier in its ingredients. Using different flavours is a really good way to mix it up.
+
 There you have it. Protein balls made with inverse matrices.
 
 [![](/assets/images/recipe/protein_balls.jpg)](/assets/images/recipe/protein_balls.jpg)
