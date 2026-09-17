@@ -7,6 +7,8 @@ main:
     url: /publications/
   - title: "Code"
     url: /code/
+  - title: "Broken Crimp"
+    url: /broken-crimp/
   - title: "Blog"
     url: /blog/
   - title: "About"
