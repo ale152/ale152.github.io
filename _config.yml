@@ -119,7 +119,7 @@ tag_archive:
 github: [metadata]
   
 analytics:
-  provider: "google-gtag"
+  provider: false # Google Analytics is in _includes/head/custom.html
   google:
-    tracking_id: "UA-159914320-1"
+    tracking_id:
     anonymize_ip: false # default

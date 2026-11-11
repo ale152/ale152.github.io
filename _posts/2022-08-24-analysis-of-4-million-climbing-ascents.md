@@ -10,7 +10,11 @@ tags:
 
 <sub>_This article was updated on the 06/09/2022. Changes can be seen [here](https://github.com/ale152/ale152.github.io/commits/master)._</sub>
 
-A series on videos inspired by this article is also available on [YouTube](https://www.youtube.com/playlist?list=PLdAesaXHmpfYhV9yQNZPChM5GDQOw4JKT).
+<div class="notice--info" style="display: flex; align-items: center; gap: 1em;">
+  <canvas data-climber="/assets/broken-crimp/beta.json" aria-hidden="true" style="flex: none; width: 96px; height: 120px; border-radius: 12px; background: #191817;"></canvas>
+  <p style="margin: 0;"><strong>Did you know that I made a climbing app?</strong> It’s called <a href="https://www.brokencrimp.com/">Broken Crimp</a> and it’s a digital version of beta maps. It can help you remember the beta for your project and share it with friends. Check it out at <a href="https://www.brokencrimp.com/">brokencrimp.com</a>!</p>
+</div>
+<script src="/assets/broken-crimp/climber.js" defer></script>
 
 # TL;DR
 Here are the main findings from this article.
